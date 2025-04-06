@@ -7,25 +7,133 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="hero">  
-        <header class="header">
-          <nav>
-            <a href="#">Funkcionalitāte</a>
-            <a href="#">Lejupielāde</a>
-            <a href="#">Lietotāja ceļvedis</a>
-            <a href="#">Izstrādātāji</a>
-          </nav>
-        </header>
-        
-        <div class="header-content">
-         <h1>Laipni lūdzam Bibliotēkas <br>vadības sistēmā!</h1>
-          <p>
-            Šī sistēma palīdz pārvaldīt grāmatas, <br>sekot līdzi klientiem 
-            un analizēt <br>bibliotēkas darbību
-          </p>
-         
-        </div>  
+  <section class="hero">  
+    <header class="header">
+      <nav>
+        <a href="#Funkcionalitāte">Funkcionalitāte</a>
+        <a href="#">Lejupielāde</a>
+        <a href="#lietotajs">Lietotāja ceļvedis</a>
+        <a href="#">Izstrādātāji</a>
+      </nav>
+    </header>
+   
+    <div class="header-container">
+      <div class="header-content">
+        <h1>Laipni lūdzam Bibliotēkas <br>vadības sistēmā!</h1>
+        <p>
+          Šī sistēma palīdz pārvaldīt grāmatas, <br>sekot līdzi klientiem 
+          un analizēt <br>bibliotēkas darbību
+        </p>
        
+      </div>
+      <img class="img-hero" src="./images/header.png">   
+    </div>   
+  </section>
+
+  <section id="Funkcionalitāte">
+    <h1>Funkcionalitāte</h1>
+    <div class="funkc-container">
+      <img class="img-function" src="./images/function.png" width="500px" height="500px">
+      <div class="funkc-text">
+        <div class="text1">
+          <img src="./images/Arrow 2.png">
+          <h2>Grāmatu pievienošana un dzēšana</h2>
+          <p><a href="#lietotajs-text1" class="highlight-link" >Lasīt vairak</a></p>
+          <img class="down" src="./images/Arrow 5.png">
+        </div> 
+
+        <div class="text2">
+          <img src="./images/Arrow 2.png">
+          <h2>Klientu reģistrācija</h2>
+          <p><a href="№lietotajs-text2" class="highlight-link" >Lasīt vairak</a></p>
+          <img class="down" src="./images/Arrow 5.png">
+        </div>
+
+        <div class="text3">
+          <img src="./images/Arrow 2.png">
+          <h2>Aizņemto grāmatu pārvaldība</h2>
+          <p><a href="#" class="highlight-link" >Lasīt vairak</a></p>
+          <img class="down" src="./images/Arrow 5.png">
+        </div>
+
+        <div class="text4">
+          <img src="./images/Arrow 2.png">
+          <h2>Grāmatu meklēšana un kārtošana</h2>
+          <p><a href="#" class="highlight-link" >Lasīt vairak</a></p>
+          <img class="down" src="./images/Arrow 5.png">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="lietotajs">
+    <section id="lietotajs-text1">
+      <div class="liet-info">
+        <div class="addbook">
+          <h1>Grāmatu pievienošana <br> un dzēšana</h1>
+          <img src="./images/Line2.png" >
+          <h4>Sistēma nodrošina iespēju pievienot <br>jaunas grāmatas un izdzēst esošās <br>no bibliotēkas</h4>
+        </div>
+
+        <div class="addbook-info">
+          <div class="circle"></div>
+          <div class="textaddbook">
+            <h4>Grāmatas pievienošana:</h4>
+            <p>Lietotājs ievada grāmatas nosaukumu, <br>autoru un izdošanas gadu.</p>
+          </div>
+        </div>
+
+        <div class="addbook-info2">
+          <div class="circle2"></div>
+          <div class="textremovebook">
+            <h4>Grāmatas dzēšana:</h4>
+            <p>1. Lietotājs norāda grāmatas nosaukumu, <br>kuru vēlas dzēst.</p>
+            <p>2. Ja šāda grāmata pastāv bibliotēkā, <br>tā tiek izņemta no pieejamā grāmatu saraksta</p>
+          </div>
+
+        </div>
+
+
+
+      </div>
     </section>
+    
+
+    <section id="lietotajs-text2">
+      <div class="reg-info">
+        <div class="regclient">
+          <h1>Klientu reģistracija</h1>
+          <img src="./images/Line2.png">
+          <h4>Sistēma ļauj reģistrēt jaunus bibliotēkas <br>klientus,  lai viņi varētu aizņemties <br>grāmatas</h4>
+        </div>
+
+        <div class="regtext-info">
+          <div class="circle"></div>
+          <div class="regtext">
+            <h4>Klienta reģistrācija: </h4>
+            <p> 
+              1. Lietotājs ievada savu vārdu<br><br>
+              2. Reģistrēti klienti var aizņemt un <br>atgriezt grāmatas
+            </p>
+          </div>
+        </div>
+
+        <div class="listclient-info">
+          <div class="circle2"></div>
+          <div class="list-client">
+            <h4>Klientu saraksts:</h4>
+            <p> 
+              Sistēma ļauj apskatīt visus reģistrētos klientus un <br>to aizņemtās grāmatas
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+  </section>
+
+  <script src="./json/main.js"></script>
 </body>
 </html>

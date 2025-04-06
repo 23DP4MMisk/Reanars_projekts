@@ -1,17 +1,24 @@
-body{
-    margin: 0px;
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 
 
 
+/* section hero  */
 nav{
     display: flex;
     margin-left: 30px;
     padding-left: 49px;
     margin-right: 30px;
     padding-right: 49px;
-    padding-top: 12px;
+    padding-top: 15px;
     justify-content: center;
     
 }
@@ -33,18 +40,225 @@ nav a{
 
 .header-content{
    text-align: left;
-   margin-left: 200px;
-   margin-top: 300px;
+   margin-left: 180px;
+   margin-top: 240px;
 }
 
 .header-content h1{
     font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
+  
 
 }
 
 .header-content p {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Размещаем текст и картинку по краям */
+    padding: 0 10%;
+}
+
+.img-hero {
+    width: 550px; /* Подстроить размер */
+    max-width: 100%;
+    border-radius: 16px;
+    margin-top: 250px;
+    margin-left: 30px;
+}  
+
+/* section Funkcionalitāte  */
+
+
+
+#Funkcionalitāte{
+    height: 915px;
+}
+
+#Funkcionalitāte h1{
+    text-align: right;
+    margin-right: 700px;
+    padding-top: 25px;
+    font-size: 35px;
+}
+
+.img-function{
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.funkc-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+}
+
+.funkc-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.funkc-text h2 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.funkc-text p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.funkc-text a{
+    text-decoration: none;
+}
+
+.down{
+    margin-top: 0px;
+}
+
+.text1, .text2, .text3, .text4{
+    margin-bottom: 25px;
+}
+
+.text1, .text3{
+    color: #041982;
+}
+
+.text4 a{
+    color: black;
+}
+
+.text2 a {
+    color: black;
+}
+
+
+/* section lietotajs  */
+#lietotajs{
+    height: 915px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #EDF3FF;
+   
+    
+    
+}
+
+#lietotajs-text1, #lietotajs-text2{
+    align-self: flex-start;
+    transition: background-color 0.6s ease, box-shadow 0.6s ease;
+    
+   
+}
+
+
+
+#lietotajs-text1.highlight, #lietotajs-text2.highlight  {
+    background-color: #f1f2fa;
+    box-shadow: 0 0 20px rgba(229, 229, 245, 0.7);
+}
+
+
+
+
+
+.addbook h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #041982;
+}
+
+.addbook img{
+    align-items: center;
+}
+
+.addbook h4{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.addbook-info, .addbook-info2, .regtext-info, .listclient-info{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px; /* отступ между кружком и текстом */
+    margin-bottom: 3px;
+}
+
+.textaddbook h4{
+    margin-top: 0px;
+    font-size: 25px;
+    color: #041982;
+}
+
+.textaddbook p {
+    font-size: 20px;
+}
+  
+.circle, .circle2 {
+    width: 15px;      /* размер круга */
+    height: 15px;
+    background-color: #041982; /* цвет круга — можно поменять */
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 6px;
+}
+
+.circle2{
+    margin-top: 38px;
+}
+
+.textremovebook h4{
+    font-size: 25px;
+    color: #041982;
+}
+
+.textremovebook p{
+    font-size: 20px;
+}
+
+
+.regclient h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 92px;
+    margin-bottom: 40px;
+} 
+
+.regclient h4{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.regtext h4{
+    font-size: 25px;
+    margin-top: 0px;
+    color: #041982;
+}
+
+.regtext p {
+    font-size: 20px;
+}
+
+.list-client h4{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #041982;
+}
+
+.list-client p{
+    font-size: 20px;
+}
+
+
 
