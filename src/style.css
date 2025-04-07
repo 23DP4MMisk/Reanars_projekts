@@ -153,6 +153,9 @@ nav a{
 
 #lietotajs-text1, #lietotajs-text2{
     align-self: flex-start;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
     transition: background-color 0.6s ease, box-shadow 0.6s ease;
     
    
