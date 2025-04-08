@@ -3,22 +3,22 @@ document.addEventListener("DOMContentLoaded", () => {
     
     links.forEach(link => {
         link.addEventListener('click', (e) => {
-            e.preventDefault(); // предотвращаем переход по ссылке
+            e.preventDefault(); // Saites klikšķu novēršana
 
-            const targetId = link.getAttribute('href').slice(1);  // Получаем id элемента из href
+            const targetId = link.getAttribute('href').slice(1); // Iegūstiet elementa ID no href
             const targetElement = document.getElementById(targetId);
 
             if (targetElement) {
-                // Прокручиваем страницу к нужному элементу
+                // Ritiniet lapu līdz vajadzīgajam elementam
                 targetElement.scrollIntoView({
-                    behavior: "smooth", // плавная прокрутка
-                    block: "start"      // элемент будет выведен в начало видимой области
+                    behavior: "smooth", // vienmērīga ritināšana
+                    block: "start"      // elements tiks nogādāts redzamās zonas sākumā
                 });
 
-                // Добавляем анимацию подсветки
+                // Izceltās animācijas pievienošana
                 targetElement.classList.add('highlight');
                 
-                // Убираем подсветку через 3 секунды
+                // Mēs noņemam fona apgaismojumu pēc 3 sekundēm
                 setTimeout(() => {
                     targetElement.classList.remove('highlight');
                 }, 3000);
