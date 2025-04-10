@@ -19,9 +19,6 @@
   
   
   
-  
-  
-  
   <section class="hero">  
     
    
@@ -38,6 +35,8 @@
     </div>   
   </section>
 
+  
+  
   <section id="Funkcionalitāte">
     <h1>Funkcionalitāte</h1>
     <div class="funkc-container">
@@ -75,6 +74,8 @@
     </div>
   </section>
 
+  
+  
   <section id="lietotajs">
     <section id="lietotajs-text1">
       <div class="liet-info">
@@ -138,12 +139,10 @@
         </div>
       </div>
     </section>
-
-    
   </section>
   
  
-
+  
   <section id="lietotajs2">
     <section id="lietotajs-text3">
       <div class="borrowed-info">
@@ -205,6 +204,8 @@
     </section>
   </section>
 
+  
+  
   <section id="lejupielade">
     <div class="lej-container">
       <div class="sakcont">
@@ -212,18 +213,55 @@
          <h4>Kas ir iekļauts programmas instalācijā ?</h4>
         </div>
       </div>
-    
+    </div>
+
+    <div class="failsgrid">
       <div class="lejinfocont">
         <div class="failsinfo">
-          <img src="./images/file-regular.svg" width="25px" height="25px">
-          <h3>Biblioteka.zip</h3>
+         <img src="./images/file-regular.svg" width="25px" height="25px">
+         <h3>Biblioteka.zip</h3>
         </div>
         <p>Galvenais izpildāmais fails. Satur visu <br>programmas loģiku un funkcionalitāti</p>
       </div>
+
+      <div class="readmeinfocont">
+        <div class="readmeinfo">
+         <img src="./images/portrait.svg" width="25px" height="25px">
+         <h3>README.md</h3>
+        </div>
+        <p>
+         Dokumentācija ar detalizētu skaidrojumu par to, kā katra komanda <br> 
+         darbojas un ko katra komanda dara,<br>
+         kā arī rokasgrāmata klientam, kā lietot<br> 
+         komandu
+        </p>
+      </div>
+
+      <div class="datiinfocount">
+        <div class="datiinfo">
+         <img src="./images/folder-open.svg" width="25px" height="25px">
+         <h3>Dati/</h3>
+        </div>
+        <p>
+          Mape ar nepieciešamajiem datiem:<br>
+          book.csv — glabā informāciju par <br>visām grāmatām<br>
+          client.csv — reģistrēto klientu <br>saraksts<br>
+          borrow_book - dati par aizņemtam grāmatām no bibliotekas<br>
+          (Faili tiek izveidoti automātiski, ja tie neeksistē)
+        </p>
+      </div>
+
+      <div class="downloadinfocont">
+        <div clas="doww">
+          <img class="dow" src="./images/download.svg" width="25px" height="25px">
+        </div>
+        <h3>Lejupieladet programmu</h3>
+        <button class="lej-btn" onclick="downloadFile()">Download ZIP</button>
+      </div>
+
+      
+      
     </div>
-
-    
-
   </section>
 
   <script src="./json/main.js"></script>
