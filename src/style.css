@@ -1,11 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
 html {
     scroll-behavior: smooth;
 }
 
 
 body {
+   
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    
+   
 }
 
 
@@ -135,7 +141,7 @@ nav a:hover::after {
     text-align: right;
     margin-right: 700px;
     padding-top: 25px;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .img-function{
@@ -172,7 +178,7 @@ nav a:hover::after {
 }
 
 .funkc-text h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0px;
 }
 
@@ -365,8 +371,8 @@ nav a:hover::after {
 
 .borrowbook, .search-sort  h1{
     text-align: center;
-    font-size: 30px;
-    margin-top: 60px;
+    font-size: 25px;
+    margin-top: 15px;
     margin-bottom: 40px;
     color: #041982;
 }
@@ -482,7 +488,7 @@ nav a:hover::after {
     width: 400px;
     height: 161px;
     background-color: #EDF3FF;
-    margin-top: 32px;
+    margin-top: 0px;
     border-radius: 30px;
     box-shadow: 2px 2px 2px 2px rgba(231, 231, 250, 0.7);
     margin-left: 360px;
@@ -520,9 +526,9 @@ nav a:hover::after {
 /*card readmeinfocont*/
 .readmeinfocont{
     
-    margin-top: 32px;
+    margin-top: 0px;
     width: 400px;
-    height: 220px;
+    height: 300px;
     background-color: #EDF3FF;
     border-radius: 30px;
     box-shadow: 2px 2px 2px 2px rgba(231, 231, 250, 0.7);
@@ -576,7 +582,7 @@ nav a:hover::after {
 .downloadinfocont{
   display: flex;
   margin-bottom: 10px;
-  margin-top: 160px;
+  margin-top: 110px;
   width: 400px;
   height: 150px;
   background-color: #EDF3FF;
@@ -608,7 +614,7 @@ nav a:hover::after {
 .lejupielades-poga {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .downloadinfocont a{
@@ -631,3 +637,71 @@ nav a:hover::after {
     background-color: #357ABD;
 }
 
+
+/* section kontakti */
+#kontakti{
+    height: 915px;
+    scroll-margin-top: 90px;
+}
+
+.consul{
+    margin-top: 150px;
+    margin-right: 210px;
+}
+
+.kontakt-contener{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.kontakt-info{
+    width: 640px;
+    height: 400px;
+    background-color: #EDF3FF;
+    border-radius: 30px;
+    margin-top: 150px;;
+
+}
+
+.kontakt-info h1{
+    font-size: 28px;
+    padding-left: 25px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+.tel-card, .email-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgphone, .imgemail {
+    margin-top: 24px;
+    margin-right: 12px;
+    margin-left: 24px;
+}
+
+
+.tel-card h5, .email-card h5{
+    font-size: 20px;
+}
+
+footer{
+    height: 100px;
+    background-color: #EDF3FF;
+}
+
+.footercont h3{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.copyright{
+    margin-top: 0px;
+    background-color: #cedaf3;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
