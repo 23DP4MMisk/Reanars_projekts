@@ -611,6 +611,10 @@ nav a:hover::after {
     margin-top: 20px;
 }
 
+.downloadinfocont a{
+    display: none;
+}
+
 .lej-btn {
     padding: 12px 24px;
     font-size: 18px;
