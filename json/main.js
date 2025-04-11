@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     block: "start"      // elements tiks nogādāts redzamās zonas sākumā
                 });
 
-                // Izceltās animācijas pievienošana
+                
                 targetElement.classList.add('highlight');
                 
                 // Mēs noņemam fona apgaismojumu pēc 3 sekundēm
