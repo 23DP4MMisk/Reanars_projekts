@@ -55,7 +55,7 @@
     nav a{
      
      
-     margin: 0 20px;
+     margin: 0 10px;
      text-decoration: none;
      color: #041982;
      font-size: 14px;
@@ -530,12 +530,12 @@
     }
 
     .kontakt-info{
-        width: 380px;
+        width: 350px;
         height: 430px;
         background-color: #EDF3FF;
         border-radius: 30px;
         margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 20px;
     
     }
 
@@ -558,7 +558,7 @@
     }
 
     .tel-card h5, .email-card h5{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     footer{
