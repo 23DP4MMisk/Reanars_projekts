@@ -300,7 +300,7 @@ nav a:hover::after {
 }
 
 
-/* card  reg-info*/
+
 .textremovebook h4{
     font-size: 25px;
     color: #041982;
@@ -310,7 +310,7 @@ nav a:hover::after {
     font-size: 20px;
 }
 
-
+/* card  reg-info*/
 .regclient h1{
     text-align: center;
     font-size: 30px;
@@ -368,8 +368,7 @@ nav a:hover::after {
 
 
 /* card  borrowed-info + search-info*/
-
-.borrowbook, .search-sort  h1{
+.borrowbook h1, .search-sort  h1{
     text-align: center;
     font-size: 25px;
     margin-top: 15px;

@@ -1,12 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
 
-.header {
-    position: sticky;
-    top: env(safe-area-inset-top, 0);
-    background-color: white;
-    z-index: 1000;
-    padding-bottom: 20px;
-}
+
 
 
 
@@ -16,10 +10,11 @@
     
     html {
         scroll-behavior: smooth;
+       
     }
 
     body {
-   
+        
         margin: 0;
         font-family: 'Open Sans';
         font-weight: 300;
@@ -27,7 +22,19 @@
        
     }
 
+    .header {
+        position: sticky;
+        
+        top: 0;
+        background-color: white;
+        z-index: 1000;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
 
+
+    
+    
     
 
     /* navigation */
@@ -51,7 +58,7 @@
      margin: 0 20px;
      text-decoration: none;
      color: #041982;
-     font-size: 12px;
+     font-size: 14px;
      font-family: Arial;
      position: relative;
     }
@@ -73,6 +80,307 @@
      width: 100%;
     }
 
+    /* section hero  */
+    .hero{
+     height: 915px;
+     background-color: #EDF3FF;
+   
+    }
 
+    .header-content{
+     margin-left: 0px;
+     margin-top: 100px;
+     animation: fadeInUp 1s ease-in-out;
+    }
+
+    /* header-content  animacija*/
+    @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    }
+
+   .header-content h1{
+     font-size: 25px;
+     text-align: center;
+  
+
+    }
+
+    .header-content p {
+     font-size: 20px;
+     text-align: center;
+    
+    }
+
+    .header-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 0 10px;
+    }
+
+    .img-hero {
+     width: 300px;
+     height: auto;
+     animation: fadeIn 2s ease;
+     margin-top: 50px;
+     margin-left: 30px;
+     margin-right: 50px;
+    } 
+
+    /* images animacija */
+    @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+    }
+
+    /* section Funkcionalitāte  */
+    #Funkcionalitāte{
+     height: 915px;
+     scroll-margin-top: 80px;
+     margin-bottom: 10px;
+
+    }
+
+    #Funkcionalitāte h1{
+        text-align: right;
+        margin-right: 500px;
+        padding-top: 25px;
+        font-size: 25px;
+    }
+
+
+    .funkc-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+       
+        
+    }
+
+    .img-function{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .funkc-text {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    /*effekts uzklikšinašanai*/
+    .funkc-text > div {
+     background-color: white;
+     padding: 5px;
+     border-radius: 15px;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+   .funkc-text > div:active {
+     transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .funkc-text h2 {
+     font-size: 17px;
+     margin: 0px;
+    }
+
+   .funkc-text p {
+     margin-top: 5px;
+     margin-bottom: 5px;
+    }
+
+   .funkc-text a{
+     text-decoration: none;
+    }
+
+
+    .down{
+     margin-top: 0px;
+    }
+
+    .text1, .text2, .text3, .text4{
+     margin-bottom: 25px;
+    }
+
+   .text1, .text3{
+     color: #041982;
+    }
+
+   .text4 a{
+     color: black;
+    }
+
+    .text2 a {
+     color: black;
+    }
+
+    /* section lietotajs  */
+    #lietotajs{
+     height: 915px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     background-color: #EDF3FF;
+     scroll-margin-top: 90px;
+    
+    
+    }
+
+    #lietotajs-text1, #lietotajs-text2, #lietotajs-text3, #lietotajs-text4{
+     align-self: flex-start;
+     margin-top: 0px;
+     margin-left: 15px;
+     padding: 10px;
+     border-radius: 10px;
+     transition:background-color 0.6s ease, box-shadow 0.6s ease;
+
+     scroll-margin-top: 90px;
+   
+    }
+
+    #lietotajs-text1.highlight, #lietotajs-text2.highlight, #lietotajs-text3.highlight, #lietotajs-text4.highlight{
+        background-color: #f1f2fa;
+        box-shadow: 0 0 20px rgba(229, 229, 245, 0.7);
+        
+    }
+
+    /* card liet-info */
+    .addbook h1{
+     text-align: center;
+     font-size: 20px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     color: #041982;
+    }
+
+    .addbook img, .regimag{
+     align-items: center;
+     width: 350px;
+   
+    }
+
+    .addbook h4{
+     text-align: center;
+     font-size: 15px;
+     margin-bottom: 10px;
+    }
+
+    .addbook-info, .addbook-info2, .regtext-info, .listclient-info, .borrow-info, .borrow-info2, .searchbook-info, .sortbook-info{
+     display: flex;
+     align-items: flex-start;
+     gap: 5px; 
+     margin-bottom: 0px;
+
+
+    }
+
+
+
+    .textaddbook h4 , .textremovebook h4, .regtext h4, .list-client h4{
+     margin-top: 0px;
+     font-size: 15px;
+     color: #041982;
+    }
+
+    .textaddbook p , .textremovebook p, .regtext p, .list-client p{
+        
+     font-size: 15px;
+   
+    }
+  
+   .circle, .circle2 {
+     width: 10px;      
+     height: 10px;
+     background-color: #041982; 
+     border-radius: 50%;
+     flex-shrink: 0;
+     margin-top: 6px;
+    }
+
+    .circle2{
+     margin-top: 5px;
+    }
+
+    /* card  reg-info*/
+    .regclient h1{
+     text-align: center;
+     font-size: 20px;
+     margin-top: 30px;
+     margin-bottom: 0px;
+    } 
+
+    .regclient h4{
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    
+    /* section lietotajs2  */
+    #lietotajs2{
+     height: 915px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+    }
+
+    #lietotajs-text3{
+        margin-top: 20px;
+        scroll-margin-top: 80px;
+    }
+
+    #lietotajs-text4{
+   
+        scroll-margin-top: 80px;
+    }
+
+    /* card  borrowed-info + search-info*/
+    .borrowbook, .search-sort  h1{
+     text-align: center;
+     font-size: 25px;
+     margin-top: 15px;
+     margin-bottom: 40px;
+     color: #041982;
+    }
+
+    .borrowbook h4 {
+     text-align: center;
+     font-size: 20px;
+     margin-bottom: 40px;
+     color: black
+    }
+
+
+
+
+    .borrowbookinfo h4{
+     margin-top: 0px;
+     font-size: 25px;
+     color: #041982;
+    }
+
+
+   .borrowbookinfo, .returnbookinfo, .searchbook, .sortbook p {
+     font-size: 20px;
+    }
+
+    .returnbookinfo h4{
+     margin-top: 31px;
+     font-size: 25px;
+     color: #041982;
+    
+    }
   
 }
