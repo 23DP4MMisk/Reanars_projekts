@@ -257,7 +257,7 @@
     }
 
     /* card liet-info */
-    .addbook h1{
+    .addbook h1, .borrowbook h1{
      text-align: center;
      font-size: 20px;
      margin-top: 0px;
@@ -288,13 +288,13 @@
 
 
 
-    .textaddbook h4 , .textremovebook h4, .regtext h4, .list-client h4{
+    .textaddbook h4 , .textremovebook h4, .regtext h4, .list-client h4, .borrowbookinfo h4{
      margin-top: 0px;
      font-size: 15px;
      color: #041982;
     }
 
-    .textaddbook p , .textremovebook p, .regtext p, .list-client p{
+    .textaddbook p , .textremovebook p, .regtext p, .list-client p, .borrowbookinfo p{
         
      font-size: 15px;
    
@@ -321,7 +321,7 @@
      margin-bottom: 0px;
     } 
 
-    .regclient h4{
+    .regclient h4, .borrowbook h4{
         text-align: center;
         font-size: 15px;
         margin-bottom: 20px;
@@ -347,40 +347,5 @@
     }
 
     /* card  borrowed-info + search-info*/
-    .borrowbook, .search-sort  h1{
-     text-align: center;
-     font-size: 25px;
-     margin-top: 15px;
-     margin-bottom: 40px;
-     color: #041982;
-    }
-
-    .borrowbook h4 {
-     text-align: center;
-     font-size: 20px;
-     margin-bottom: 40px;
-     color: black
-    }
-
-
-
-
-    .borrowbookinfo h4{
-     margin-top: 0px;
-     font-size: 25px;
-     color: #041982;
-    }
-
-
-   .borrowbookinfo, .returnbookinfo, .searchbook, .sortbook p {
-     font-size: 20px;
-    }
-
-    .returnbookinfo h4{
-     margin-top: 31px;
-     font-size: 25px;
-     color: #041982;
     
-    }
-  
 }
