@@ -352,6 +352,7 @@ nav a:hover::after {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: #EDF3FF;
 }
 
 #lietotajs-text3{
@@ -433,7 +434,7 @@ nav a:hover::after {
 #lejupielade{
     height: 915px;
     scroll-margin-top: 90px;
-    background-color: #EDF3FF;
+    
 }
 
 .lej-container{
