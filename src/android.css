@@ -524,7 +524,7 @@
 
     .kontakt-contener{
         display: flex;
-        justify-content: center;
+        
         flex-direction: column;
         
     }
@@ -535,7 +535,7 @@
         background-color: #EDF3FF;
         border-radius: 30px;
         margin-top: 20px;
-        margin-left: 5px;
+        margin-left: 10px;
     
     }
 
