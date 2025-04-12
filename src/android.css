@@ -265,7 +265,7 @@
      color: #041982;
     }
 
-    .addbook img, .regimag{
+    .addbook img, .regimag, .borrowimag, .serchimg{
      align-items: center;
      width: 350px;
    
@@ -288,13 +288,13 @@
 
 
 
-    .textaddbook h4 , .textremovebook h4, .regtext h4, .list-client h4, .borrowbookinfo h4{
+    .textaddbook h4 , .textremovebook h4, .regtext h4, .list-client h4, .borrowbookinfo h4, .returnbookinfo h4, .searchbook h4, .sortbook h4{
      margin-top: 0px;
      font-size: 15px;
      color: #041982;
     }
 
-    .textaddbook p , .textremovebook p, .regtext p, .list-client p, .borrowbookinfo p{
+    .textaddbook p , .textremovebook p, .regtext p, .list-client p, .borrowbookinfo p, .searchbook p, .sortbook p{
         
      font-size: 15px;
    
@@ -314,14 +314,14 @@
     }
 
     /* card  reg-info*/
-    .regclient h1{
+    .regclient h1 , .search-sort  h1{
      text-align: center;
      font-size: 20px;
      margin-top: 30px;
      margin-bottom: 0px;
     } 
 
-    .regclient h4, .borrowbook h4{
+    .regclient h4, .borrowbook h4, .search-sort h4{
         text-align: center;
         font-size: 15px;
         margin-bottom: 20px;
@@ -330,9 +330,9 @@
     
     /* section lietotajs2  */
     #lietotajs2{
-     height: 915px;
+     height: 1100px;
      display: flex;
-     flex-direction: row;
+     flex-direction: column;
      justify-content: space-evenly;
     }
 
@@ -346,6 +346,10 @@
         scroll-margin-top: 80px;
     }
 
-    /* card  borrowed-info + search-info*/
+    /* section lejuielade  */
+    #lejupielade{
+        height: 915px;
+        scroll-margin-top: 90px;
+    }
     
 }

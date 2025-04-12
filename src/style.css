@@ -397,7 +397,7 @@ nav a:hover::after {
 }
 
 
-.borrowbookinfo p, .returnbookinfo p, .searchbook p, .sortbook p {
+.borrowbookinfo p, .returnbookinfo p, .searchbook p .sortbook p {
     font-size: 20px;
 }
 
@@ -433,6 +433,7 @@ nav a:hover::after {
 #lejupielade{
     height: 915px;
     scroll-margin-top: 90px;
+    background-color: #EDF3FF;
 }
 
 .lej-container{
